@@ -29,3 +29,10 @@ Run Fraud Detection Service Application
 ## Project Overview
 
 ![img.png](img.png)
+
+
+## Clean up resources
+Press Control+C to cancel loan & fraud detection services
+then delete all resources
+
+```docker compose down```
