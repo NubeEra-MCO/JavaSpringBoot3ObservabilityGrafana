@@ -1,6 +1,12 @@
 # Spring Boot 3 Observability with Grafana Stack(Tempo, Loki, Prometheus)
 I am using Grafana, Prometheus, Tempo, Loki tools
 
+## Install Tools:
+```bash
+  sudo apt-get install -y openjdk-17-jdk
+  sudo apt-get install -y maven
+```
+
 ## Running the project
 
 To run the project, you need to have Docker and Docker Compose installed. Then, run the following command:
