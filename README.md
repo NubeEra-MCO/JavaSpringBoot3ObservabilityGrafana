@@ -2,8 +2,20 @@
 I am using Grafana, Prometheus, Tempo, Loki tools
 
 ## Install Tools:
+
+### Install Java
 ```bash
   sudo apt-get install -y openjdk-17-jdk
+```
+### Configure Java
+```bash
+  cat<<EOF >> ~/.bashrc
+  export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))
+  export PATH=$PATH:$JAVA_HOME/bin
+  EOF
+```
+
+```bash
   sudo apt-get install -y maven
 ```
 
